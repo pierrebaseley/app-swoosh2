@@ -26,11 +26,15 @@ class ViewController: UIViewController {
         
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+   //IB is interface builder actions
+    // Can name function what ever you want eg unwindFromSkillVC [Function name]
+    // Can also name intial in brackets whatever eg unwindSegue [Paramater name]
+    //Must have UIStoryboardSegue [Paramater]
+    
+    @IBAction func unwindFromSkillVC(unwindSegue: UIStoryboardSegue){
+        
     }
-
-
+    
+    
 }
 
